@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>2.2</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		
+		<script src="js/three.min.js"></script>
+		<script src="js/PointerLockControls.js"></script>
+		<script src="js/jscolor.js"></script>
+		
+	</head>
+	<body>
+		<div id="blocker">
+
+			<div id="instructions">
+				<span style="font-size:36px">Click to play</span>
+				<br /><br />
+				Move: WASD or Arrows<br/>
+				Jump: SPACE<br/>
+				Choose blok: B<br/>
+				Choose axe: H<br/>
+				Change color: C<br/>
+				Look: MOUSE
+			</div>
+			
+		</div>
+		
+		<div id="mousePointer"> <img src="assets/mousePointer.png"></div>
+		<div id = "closeColorField"></div>
+		<div id = "colorFieldUI">
+        	<input id = "colorField" onchange="newBlockColor(this.jscolor)" class="jscolor {position:'top', closable:true, shadow:false, borderWidth:0, backgroundColor:'transparent'}" value="ab2567">
+    	</div>
+		<div id="block"></div>
+		<div id="axe"></div>
+		
+		<script src="js/main.js"></script>
+	</body>
+</html>
