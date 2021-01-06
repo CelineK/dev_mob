@@ -1,4 +1,4 @@
 # threejs
 
 
-Se déplacer au début à gauche pour voir le cube.
+Se déplacer au début à gauche au début pour voir le cube.
